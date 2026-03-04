@@ -1,0 +1,43 @@
+\documentclass{beamer}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{german}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{url}
+
+
+\newcommand{\R}{\mathbb{R}}% reele Zahlen
+\newcommand{\C}{\mathbb{C}}% komplexe Zahlen
+\newcommand{\Q}{\mathbb{Q}}% rationale Zahlen
+
+
+\newtheorem{thm}{Satz}
+\newtheorem{cor}[thm]{Korollar}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+
+\title{Proseminar: Title}
+\author{Max Mustermann}
+\date{\today}
+
+\begin{document}
+
+% Title Slide
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% First Content Slide
+\begin{frame}{First Slide Title}
+    Hello! This is a blank Beamer slide.
+    \begin{itemize}
+        \item Point one
+        \item Point two
+    \end{itemize}
+    \begin{thm}
+        First theorem
+    \end{thm}
+\end{frame}
+
+\end{document}
